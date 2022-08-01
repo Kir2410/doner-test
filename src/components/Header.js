@@ -12,13 +12,15 @@ function Header() {
         <div className="contacts">+79138000000</div>
       </nav>
       <div className={styles.navbarsearch}>
-        <h2>Donnermaster</h2>
-        <input
-          className={styles.input}
-          type="text"
-          placeholder="Поиск по сайту"
-        />
-        <button className={styles.button__search}></button>
+        <h2>Donermaster</h2>
+        <div className={styles.search}>
+          <input
+            className={styles.input}
+            type="text"
+            placeholder="Поиск по сайту"
+          />
+          <button className={styles.button__search}></button>
+        </div>
         <button className={styles.button__basket}>корзина</button>
       </div>
     </header>
