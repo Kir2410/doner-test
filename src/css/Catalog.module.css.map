@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,aAAa,CAC9B,OAAO,CAAE,MAAM,CACf,SAAS,CAAE,IAAI,CAAG",
+    "sources": [
+        "../sass/Catalog.module.sass"
+    ],
+    "names": [],
+    "file": "Catalog.module.css"
+}
