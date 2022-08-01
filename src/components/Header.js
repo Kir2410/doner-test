@@ -2,12 +2,12 @@ import styles from "../css/Header.module.css";
 
 function Header() {
   return (
-    <header className={styles.header}>
+    <header>
       <nav className={styles.navbar}>
-        <ul>
-          <li>О нас</li>
-          <li>Каталог</li>
-          <li>Как заказать</li>
+        <ul className={styles.header__list}>
+          <li className={styles.header__element}>О нас</li>
+          <li className={styles.header__element}>Каталог</li>
+          <li className={styles.header__element}>Как заказать</li>
         </ul>
         <div className="contacts">+79138000000</div>
       </nav>
