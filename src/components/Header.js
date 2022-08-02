@@ -1,8 +1,16 @@
+import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import Basket from "./Basket";
 import Catalog from "./Catalog";
 import styles from "../css/Header.module.css";
 
 function Header() {
+  const [cube, setCube] = useState("");
+
+  const showBasket = () => {
+    cube !== "" ? setCube("") : setCube(<Basket />);
+  };
+
   return (
     <>
       <header>
@@ -30,7 +38,10 @@ function Header() {
             />
             <button className={styles.button__search}></button>
           </div>
-          <button className={styles.button__basket}>0 ₽</button>
+          <button onClick={showBasket} className={styles.button__basket}>
+            0 ₽
+          </button>
+          {cube}
         </div>
       </header>
       <Routes>
