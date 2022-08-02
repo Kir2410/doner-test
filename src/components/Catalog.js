@@ -19,24 +19,40 @@ class Catalog extends React.Component {
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
           name={"Шаурма Классическая маленькая, 300 гр."}
+          price={195}
+          ingredients={
+            "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
+          }
         />
         <Doner
           image={
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
           name={"Шаурма Классическая средняя, 450 гр."}
+          ingredients={
+            "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
+          }
+          price={225}
         />
         <Doner
           image={
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
           name={"Шаурма Классическая большая, 600 гр."}
+          ingredients={
+            "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
+          }
+          price={260}
         />
         <Doner
           image={
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
           name={"Шаурма Классическая огромная, 800 гр."}
+          ingredients={
+            "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
+          }
+          price={305}
         />
       </div>
     );
