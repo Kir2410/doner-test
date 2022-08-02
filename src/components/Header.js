@@ -18,7 +18,7 @@ function Header() {
               Как заказать
             </Link>
           </ul>
-          <div className="contacts">+79138000000</div>
+          <div className={styles.header__element}>+79138000000</div>
         </nav>
         <div className={styles.navbarsearch}>
           <h2>Donermaster</h2>
