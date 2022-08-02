@@ -28,7 +28,7 @@ class Catalog extends React.Component {
           image={
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
-          name={"Шаурма Классическая средняя, 450 гр."}
+          name={"Шаурма Классическая стандартная, 450 гр."}
           ingredients={
             "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
           }
@@ -48,7 +48,7 @@ class Catalog extends React.Component {
           image={
             "https://stoneforest.ru/wp-content/uploads/2021/11/dalnevostochnyi-fast-fud-shaurma-ne-tak-prosta-kak-kazhetsya-1.jpg"
           }
-          name={"Шаурма Классическая огромная, 800 гр."}
+          name={"Шаурма Классическая мега, 800 гр."}
           ingredients={
             "Лаваш, курица, салат весенний (капуста, морковь, болгарский перец, зелень), соус сметанный"
           }

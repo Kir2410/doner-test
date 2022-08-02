@@ -7,7 +7,6 @@ function App() {
   return (
     <div className={styles.app}>
       <Header />
-      <Catalog />
       <Footer />
     </div>
   );
